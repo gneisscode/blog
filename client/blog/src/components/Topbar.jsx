@@ -7,7 +7,6 @@ import { Context } from "../context/Context";
 
 const Topbar = () => {
  const { user, dispatch } = useContext(Context);
- const PF = "http://localhost:8000/images/";
  const handleLogout = () => {
   dispatch({type: "LOGOUT"})
  }

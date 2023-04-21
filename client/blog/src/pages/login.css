@@ -5,10 +5,10 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
+      rgba(255, 255, 255, 0.65),
+      rgba(255, 255, 255, 0.65)
     ),
-    url("https://images.pexels.com/photos/768473/pexels-photo-768473.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    url("assets/signin.jpg");
   background-size: cover;
 }
 
@@ -20,6 +20,10 @@
   margin-top: 20px;
   display: flex;
   flex-direction: column;
+  width: 300px;
+}
+label{
+  font-size: 22px;
 }
 
 .loginForm > label {
@@ -40,7 +44,7 @@
 .loginButton {
   margin-top: 20px;
   cursor: pointer;
-  background-color: lightcoral;
+  background-color: coral;
   color: white;
   padding: 10px;
   border: none;

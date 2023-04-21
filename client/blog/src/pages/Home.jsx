@@ -6,6 +6,7 @@ import Posts from "../components/posts/Posts";
 import Sidebar from "../components/Sidebar";
 import axios from "axios";
 import { useLocation } from "react-router-dom";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const [posts, setPosts] = useState([]);
@@ -26,6 +27,7 @@ const Home = () => {
       <div className="home">
         <Posts posts={posts} />
       </div>
+      <Footer/>
     </>
   );
 };
