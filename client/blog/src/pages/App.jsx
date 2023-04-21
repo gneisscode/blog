@@ -13,7 +13,7 @@ import { ContextProvider } from '../context/Context'
 import { Context } from "../context/Context";
 
 function App() {
-  axios.defaults.baseURL = `https://node-react-forum-api.onrender.com/`;
+  axios.defaults.baseURL = `https://node-react-forum-api.onrender.com/api`;
   const {user} = useContext(Context)
 
   return (
